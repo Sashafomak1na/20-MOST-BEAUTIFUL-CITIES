@@ -1,0 +1,29 @@
+.table__text {
+    padding: 0;
+    max-width: 35%;
+    padding: 10px;
+    /* Внутренний отступ */
+    border: 2px solid transparent;
+    /* Граница ячеек, по умолчанию прозрачная */
+    border-color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    margin: 40px 0 33px;
+}
+
+@media (max-width: 544px) {
+    .table__text {
+        font-size: 12px;
+        max-width: 30%;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .table__text {
+        font-size: 8px;
+        max-width: 25%;
+        padding: 3px;
+    }
+}

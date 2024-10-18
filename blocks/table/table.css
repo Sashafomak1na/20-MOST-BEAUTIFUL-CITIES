@@ -1,0 +1,31 @@
+.table {
+    padding: 0px 310px 92px 0;
+    max-width: 690px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 288px;
+}
+
+@media (max-width:1024px) {
+    .table {
+        padding: 0px 250px 92px 48px;
+        margin: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .table {
+        padding: 0px 24px 88px;
+        max-width: 720px;
+        margin: 0;
+    }
+}
+
+@media (max-width:320px) {
+    .table {
+        padding: 0px 16px 64px;
+        max-width: 288px;
+    }
+}

@@ -1,0 +1,22 @@
+.lead__image {
+    max-width: 930px;
+    /* max-height: 615px; */
+    align-self: center;
+    padding: 0;
+    margin: 20px 0 0;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+@media (max-width: 930px) {
+    .lead__image {
+        /* width: 100%; */
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__image {
+        /* max-width: 100%; */
+    }
+}
